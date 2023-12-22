@@ -1,0 +1,10 @@
+type User @model {
+  id: ID!
+  firstName: String!
+  lastName: String!
+  emailAddress: String!
+  contactNumber: String!
+  skillsAndInterests: AWSJSON
+  organizationalInvolvement: AWSJSON
+  certifications: AWSJSON
+}

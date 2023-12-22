@@ -10,6 +10,11 @@
       "StackName": "amplify-volunteersprogram-dev-154158",
       "StackId": "arn:aws:cloudformation:ap-southeast-1:162150296878:stack/amplify-volunteersprogram-dev-154158/97759840-a09d-11ee-bd06-0a653c677f92",
       "AmplifyAppId": "dyadfll4aqv6v"
+    },
+    "categories": {
+      "api": {
+        "volunteersprogram": {}
+      }
     }
   }
 }
