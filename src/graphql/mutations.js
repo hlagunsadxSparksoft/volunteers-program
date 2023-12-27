@@ -20,7 +20,7 @@ export const createUser = /* GraphQL */ `
       __typename
     }
   }
-`;
+`
 export const updateUser = /* GraphQL */ `
   mutation UpdateUser(
     $input: UpdateUserInput!
@@ -40,7 +40,7 @@ export const updateUser = /* GraphQL */ `
       __typename
     }
   }
-`;
+`
 export const deleteUser = /* GraphQL */ `
   mutation DeleteUser(
     $input: DeleteUserInput!
@@ -60,4 +60,49 @@ export const deleteUser = /* GraphQL */ `
       __typename
     }
   }
-`;
+`
+export const createProject = /* GraphQL */ `
+  mutation CreateProject(
+    $input: CreateProjectInput!
+    $condition: ModelProjectConditionInput
+  ) {
+    createProject(input: $input, condition: $condition) {
+      id
+      title
+      description
+      createdAt
+      updatedAt
+      __typename
+    }
+  }
+`
+export const updateProject = /* GraphQL */ `
+  mutation UpdateProject(
+    $input: UpdateProjectInput!
+    $condition: ModelProjectConditionInput
+  ) {
+    updateProject(input: $input, condition: $condition) {
+      id
+      title
+      description
+      createdAt
+      updatedAt
+      __typename
+    }
+  }
+`
+export const deleteProject = /* GraphQL */ `
+  mutation DeleteProject(
+    $input: DeleteProjectInput!
+    $condition: ModelProjectConditionInput
+  ) {
+    deleteProject(input: $input, condition: $condition) {
+      id
+      title
+      description
+      createdAt
+      updatedAt
+      __typename
+    }
+  }
+`

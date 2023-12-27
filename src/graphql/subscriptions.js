@@ -17,7 +17,7 @@ export const onCreateUser = /* GraphQL */ `
       __typename
     }
   }
-`;
+`
 export const onUpdateUser = /* GraphQL */ `
   subscription OnUpdateUser($filter: ModelSubscriptionUserFilterInput) {
     onUpdateUser(filter: $filter) {
@@ -34,7 +34,7 @@ export const onUpdateUser = /* GraphQL */ `
       __typename
     }
   }
-`;
+`
 export const onDeleteUser = /* GraphQL */ `
   subscription OnDeleteUser($filter: ModelSubscriptionUserFilterInput) {
     onDeleteUser(filter: $filter) {
@@ -51,4 +51,40 @@ export const onDeleteUser = /* GraphQL */ `
       __typename
     }
   }
-`;
+`
+export const onCreateProject = /* GraphQL */ `
+  subscription OnCreateProject($filter: ModelSubscriptionProjectFilterInput) {
+    onCreateProject(filter: $filter) {
+      id
+      title
+      description
+      createdAt
+      updatedAt
+      __typename
+    }
+  }
+`
+export const onUpdateProject = /* GraphQL */ `
+  subscription OnUpdateProject($filter: ModelSubscriptionProjectFilterInput) {
+    onUpdateProject(filter: $filter) {
+      id
+      title
+      description
+      createdAt
+      updatedAt
+      __typename
+    }
+  }
+`
+export const onDeleteProject = /* GraphQL */ `
+  subscription OnDeleteProject($filter: ModelSubscriptionProjectFilterInput) {
+    onDeleteProject(filter: $filter) {
+      id
+      title
+      description
+      createdAt
+      updatedAt
+      __typename
+    }
+  }
+`

@@ -8,3 +8,9 @@ type User @model {
   organizationalInvolvement: AWSJSON
   certifications: AWSJSON
 }
+
+type Project @model {
+  id: ID!
+  title: String!
+  description: String!
+}
