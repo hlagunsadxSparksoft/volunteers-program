@@ -18,7 +18,7 @@
     }
   },
   "auth": {
-    "volunteersprogramba4b0ff5": {
+    "volunteersprogram3569445a": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -31,15 +31,10 @@
           "passwordPolicyMinLength": 8
         },
         "signupAttributes": [
-          "EMAIL",
-          "FAMILY_NAME",
-          "GIVEN_NAME",
-          "PHONE_NUMBER"
-        ],
-        "socialProviders": [],
-        "usernameAttributes": [
           "EMAIL"
         ],
+        "socialProviders": [],
+        "usernameAttributes": [],
         "verificationMechanisms": [
           "EMAIL"
         ]
